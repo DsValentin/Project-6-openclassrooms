@@ -1,0 +1,2 @@
+Bon déjà un soucis de moins^^
+Tu retournes sur le repo github du projet tu télécharges les fichiers du  backend ,tu récupères le fichier databaseSQlite. Tu le copies-colles dans ton dossier backend enregistré dans ton explorateur de fichiers (sur PC). Un conseil: tu vas être amené à faire la manip des dizaines de fois, enregistre la database à un endroit hyper accessible. Perso je l'avais collé sur le bureau. (modifié) 

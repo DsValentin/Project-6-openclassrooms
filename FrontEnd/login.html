@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="assets/css/login.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sophie Bluel <span>Architecte d'intérieur</span></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">projets</a></li>
+          <li><a href="index.html#contact">contact</a></li>
+          <li class="selectedMenu">login</li>
+          <li><img src="./assets/icons/instagram.png" alt="Instagram" /></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="connexion">
+        <h2>Log in</h2>
+        <form class="loginForm" action="#" method="post">
+          <div class="connexionForm">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required />
+            <p id="emailError" class="error"></p>
+          </div>
+          <div class="connexionForm">
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" id="password" required />
+            <p id="passwordError" class="error"></p>
+          </div>
+          <input
+            class="submitBtn"
+            type="submit"
+            id="submitUserInfo"
+            value="Se connecter"
+          />
+          <p id="globalError" class="error"></p>
+          <a href="#">Mot de passe oublié</a>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li>Mentions Légales</li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="Javascript/login.js"></script>
+  </body>
+</html>
