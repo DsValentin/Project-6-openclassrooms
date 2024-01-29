@@ -1,4 +1,4 @@
-//RETRIEVAL OF THE ARCHITECT'S PROJECTS//
+
 
 const displayedProjects = new Set();
 
@@ -35,9 +35,7 @@ fetch("http://localhost:5678/api/works")
       }
     });
   });
-//FILTERS//
 
-//Filter Objects//
 
 function filtreObjet() {
   //Display Objects//
