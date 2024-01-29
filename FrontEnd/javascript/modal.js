@@ -1,5 +1,3 @@
-//MODAL//
-//modal.js
 
 // Récupérer les références aux éléments nécessaires
 const modal = document.getElementById("modal");
